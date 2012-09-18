@@ -32,7 +32,7 @@ module Refinerycms
               unless ::Refinery::Page.find_by_title(child)
                 child_page = parent_page.children.create(:title => child)
 
-                ::Refinery::Page.default_parts.each do |default_page_part|
+                ::Refinery::Pages.config.default_parts.each do |default_page_part|
                   child_page.parts.create(:title => default_page_part, :body => nil)
                 end
               end
