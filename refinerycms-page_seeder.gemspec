@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["James Thompson"]
   s.email       = ["james.b.thompson@gmail.com"]
   s.homepage    = "https://github.com/julesce/refinerycms-page_seeder"
-  s.summary     = %q{Simple helper class to make life a bit easier when seeding RefineryCMS pages.}
+  s.summary     = %q{Page seeding helper class for RefineryCMS pages.}
+  s.description = %q{Simple helper class to make life a bit easier when seeding RefineryCMS pages.}
 
   #s.rubyforge_project = "refinerycms-page_seeder"
 
